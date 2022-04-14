@@ -5,7 +5,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 
 order_flavor = ["микс дня", "сладкий", "кислый", "свежий"]
 order_heaviness = ["лёгкий", "средний", "тяжелый", "убийственный"]
-order_bowl = ["чаша", "грейп", "гранат", "ананас"]
+order_bowl = ["грейп", "гранат", "ананас", "чаша"]
 
 
 class OrderStates(StatesGroup):
